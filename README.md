@@ -2,6 +2,7 @@
 
 Go-PHP is the start of a small framework that will allow
 you to write PHP Extensions using [Go-Lang](http://golang.org/).
+I have [written about this here](http://hazbo.github.io/2013/11/09/go-and-php/).
 
 ### Prerequisites
 
