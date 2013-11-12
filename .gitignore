@@ -28,3 +28,4 @@ mkinstalldirs
 config.h
 config.sub
 Makefile
+go-Main.o

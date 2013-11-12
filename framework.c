@@ -4,6 +4,8 @@
 #include "php.h"
 #include "php_framework.h"
 
+extern int go_main() __asm__ ("extension.main.Main");
+
 static function_entry framework_functions[] = {
     PHP_FE(test, NULL)
     {NULL, NULL, NULL}
@@ -32,5 +34,5 @@ ZEND_GET_MODULE(framework)
 
 PHP_FUNCTION(test)
 {
-    RETURN_STRING("Test String", 1);
+    RETURN_LONG(go_main());
 }

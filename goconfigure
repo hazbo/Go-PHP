@@ -1,0 +1,1 @@
+gccgo -c go-src/Main.go -o go-Main.o -fgo-prefix=extension
