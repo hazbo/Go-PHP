@@ -1,6 +1,6 @@
 .DS_Store
 .libs/
-automa4te.cache/
+autom4te.cache/
 build/
 include/
 modules/
@@ -8,7 +8,7 @@ modules/
 acinclude.m4
 config.h.in
 configure
-Makefile.fragments  
+Makefile.fragments
 aclocal.m4
 config.log
 configure.in
@@ -27,4 +27,4 @@ ltmain.sh
 mkinstalldirs
 config.h
 config.sub
-Makefile 
+Makefile
